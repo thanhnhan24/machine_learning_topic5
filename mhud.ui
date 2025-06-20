@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1568</width>
-    <height>882</height>
+    <width>1506</width>
+    <height>859</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>621</width>
+      <width>671</width>
       <height>51</height>
      </rect>
     </property>
@@ -29,6 +29,7 @@
       <pointsize>20</pointsize>
       <weight>75</weight>
       <bold>true</bold>
+      <underline>true</underline>
      </font>
     </property>
     <property name="text">
@@ -50,7 +51,9 @@
     <property name="font">
      <font>
       <family>Noto Sans Mono</family>
-      <pointsize>15</pointsize>
+      <pointsize>17</pointsize>
+      <underline>true</underline>
+      <strikeout>false</strikeout>
      </font>
     </property>
     <property name="text">
@@ -63,9 +66,9 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>730</x>
       <y>10</y>
-      <width>521</width>
+      <width>411</width>
       <height>61</height>
      </rect>
     </property>
@@ -88,15 +91,16 @@ cánh tay robot gắp và phân loại vât thể</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>650</x>
+      <x>730</x>
       <y>70</y>
-      <width>171</width>
+      <width>191</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Noto Mono</family>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -111,15 +115,16 @@ HỒ ĐỨC AN</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>830</x>
+      <x>920</x>
       <y>70</y>
-      <width>241</width>
+      <width>221</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Noto Mono</family>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -140,7 +145,7 @@ HỒ ĐỨC AN</string>
       <x>10</x>
       <y>140</y>
       <width>1561</width>
-      <height>691</height>
+      <height>681</height>
      </rect>
     </property>
     <property name="backgroundBrush">
@@ -162,464 +167,25 @@ HỒ ĐỨC AN</string>
      </brush>
     </property>
    </widget>
-   <widget class="QGroupBox" name="groupBox">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>150</y>
-      <width>321</width>
-      <height>111</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Noto Mono</family>
-     </font>
-    </property>
-    <property name="title">
-     <string>1. CẤU HÌNH VÀ TRẠNG THÁI PHẦN CỨNG</string>
-    </property>
-    <widget class="QCheckBox" name="checkBox">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>30</y>
-       <width>141</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Intel D435i</string>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>70</y>
-       <width>131</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Xarm Lite6</string>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton">
-     <property name="geometry">
-      <rect>
-       <x>160</x>
-       <y>30</y>
-       <width>151</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Cấu hình</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QGroupBox" name="groupBox_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>270</y>
-      <width>321</width>
-      <height>391</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Noto Mono</family>
-     </font>
-    </property>
-    <property name="title">
-     <string>2. CẤU HÌNH TỌA ĐỘ PALLET</string>
-    </property>
-    <widget class="QCheckBox" name="checkBox_3">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>30</y>
-       <width>201</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Pallet nhập hàng</string>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_4">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>110</y>
-       <width>161</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Pallet hàng 1</string>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>60</y>
-       <width>101</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>X = 123.12</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_2">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>60</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Y = 456.45</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_3">
-     <property name="geometry">
-      <rect>
-       <x>220</x>
-       <y>60</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Z = 789.78</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_4">
-     <property name="geometry">
-      <rect>
-       <x>220</x>
-       <y>140</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Z = 789.78</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_5">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>140</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Y = 456.45</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>140</y>
-       <width>101</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>X = 123.12</string>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_5">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>190</y>
-       <width>181</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Pallet hàng 2</string>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>220</y>
-       <width>101</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>X = 123.12</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_8">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>220</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Y = 456.45</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_9">
-     <property name="geometry">
-      <rect>
-       <x>220</x>
-       <y>220</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Z = 789.78</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_10">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>300</y>
-       <width>101</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>X = 123.12</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_11">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>300</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Y = 456.45</string>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>270</y>
-       <width>171</width>
-       <height>23</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Pallet hàng 3</string>
-     </property>
-     <property name="checked">
-      <bool>false</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_12">
-     <property name="geometry">
-      <rect>
-       <x>220</x>
-       <y>300</y>
-       <width>91</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Noto Mono</family>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="plainText">
-      <string>Z = 789.78</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>340</y>
-       <width>301</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Cấu hình</string>
-     </property>
-    </widget>
-   </widget>
    <widget class="QGroupBox" name="groupBox_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>670</y>
-      <width>321</width>
+      <width>421</width>
       <height>141</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Noto Mono</family>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="title">
-     <string>3. Tay Xarm Lite6</string>
+     <string>Tay Xarm Lite6</string>
     </property>
-    <widget class="QPlainTextEdit" name="plainTextEdit_15">
+    <widget class="QPlainTextEdit" name="xarm_Z">
      <property name="geometry">
       <rect>
        <x>220</x>
@@ -638,7 +204,7 @@ HỒ ĐỨC AN</string>
       <string>Z = 789.78</string>
      </property>
     </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_14">
+    <widget class="QPlainTextEdit" name="xarm_X">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -657,7 +223,7 @@ HỒ ĐỨC AN</string>
       <string>X = 123.12</string>
      </property>
     </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit_13">
+    <widget class="QPlainTextEdit" name="xarm_Y">
      <property name="geometry">
       <rect>
        <x>120</x>
@@ -676,12 +242,12 @@ HỒ ĐỨC AN</string>
       <string>Y = 456.45</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="xarmZeroPoint">
      <property name="geometry">
       <rect>
        <x>10</x>
        <y>90</y>
-       <width>141</width>
+       <width>131</width>
        <height>41</height>
       </rect>
      </property>
@@ -689,12 +255,12 @@ HỒ ĐỨC AN</string>
       <string>Zero point</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_4">
+    <widget class="QPushButton" name="xarmHomePoint">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>150</x>
        <y>90</y>
-       <width>141</width>
+       <width>121</width>
        <height>41</height>
       </rect>
      </property>
@@ -702,24 +268,1092 @@ HỒ ĐỨC AN</string>
       <string>Home point</string>
      </property>
     </widget>
+    <widget class="QPlainTextEdit" name="xarm_theta">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>40</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Noto Mono</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="plainText">
+      <string>θ = 789.78</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="xarmWorkspaceSwitching">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>90</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Noto Mono</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Sorting pallet</string>
+     </property>
+    </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBox_4">
+   <widget class="QLabel" name="cameraView">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>780</x>
       <y>150</y>
-      <width>331</width>
-      <height>291</height>
+      <width>721</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="logView">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>630</y>
+      <width>781</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans Mono</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Thành phố Hồ Chí Minh, 2025</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>70</y>
+      <width>341</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Noto Mono</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>GVHD: Thầy Phạm Quốc Phương 
+Môn: Máy học ứng dụng</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>250</y>
+      <width>311</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string>VẬN HÀNH</string>
     </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>291</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>START</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>291</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>STOP</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>530</y>
+      <width>321</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>GIÁM SÁT HỆ THỐNG VÀ RTC</string>
+    </property>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Số luồng đang chạy</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CPU</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="cpu_bar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="ram_bar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>110</y>
+       <width>261</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RAM</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="RealTime">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>301</width>
+       <height>61</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="Date">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>301</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="threadcount">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QToolBox" name="toolBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>431</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>431</width>
+       <height>396</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>CẤU HÌNH TRẠNG THÁI PHẦN CỨNG</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>421</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Mono</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>1. CẤU HÌNH VÀ TRẠNG THÁI PHẦN CỨNG</string>
+      </property>
+      <widget class="QCheckBox" name="webcamManager">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>141</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Intel D435i</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="xarmManager">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Xarm Lite6</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="stage1button">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>210</y>
+        <width>421</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Mono</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>KIỂM TRA</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>421</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Địa chỉ IP tay robot </string>
+      </property>
+      <widget class="QTextEdit" name="ip_addr">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>401</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>431</width>
+       <height>396</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>CẤU HÌNH TỌA ĐỘ PALLET</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>421</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Noto Mono</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>2. CẤU HÌNH TỌA ĐỘ PALLET</string>
+      </property>
+      <widget class="QCheckBox" name="pallet1_check">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>201</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Pallet nhập hàng</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="pallet2_check">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>161</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Pallet hàng 1</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet1_X">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>X = 123.12</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet1_Y">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>60</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Y = 456.45</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet1_Z">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>60</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Z = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet2_Z">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>140</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Z = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet2_Y">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Y = 456.45</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet2_X">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>X = 123.12</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="pallet3_check">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>190</y>
+         <width>181</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Pallet hàng 2</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet3_X">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>X = 123.12</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet3_Y">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>220</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Y = 456.45</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet3_Z">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>220</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Z = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet4_X">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>300</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>X = 123.12</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet4_Y">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>300</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Y = 456.45</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="pallet4_check">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>171</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Pallet hàng 3</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet4_Z">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>300</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>Z = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="stage2button">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>340</y>
+         <width>401</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Cấu hình</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet1_theta">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>60</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>θ = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet2_theta">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>140</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>θ = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet3_theta">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>220</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>θ = 789.78</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pallet4_theta">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>300</y>
+         <width>91</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="plainText">
+        <string>θ = 789.78</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>431</width>
+       <height>396</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>CẤU HÌNH MÔ HÌNH KMEANS</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>431</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>3. CẤU HÌNH MÔ HÌNH K-MEANS</string>
+      </property>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>BOW - SIFT</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PCA</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>K-MEANS</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="stage3button">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>411</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Mono</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>LOAD</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>411</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Thư mục chính</string>
+       </property>
+       <widget class="QPlainTextEdit" name="maindirText">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>331</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QToolButton" name="main_dirChoose">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>30</y>
+          <width>51</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>...</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>150</y>
+      <width>311</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>TRẠNG THÁI</string>
+    </property>
+    <widget class="QTextEdit" name="textEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>291</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; color:#aa0000;&quot;&gt;CHƯA SẴN SÀNG&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_8">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>440</y>
+      <width>311</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>ĐÃ PHÂN LOẠI</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="toolButton">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -727,10 +1361,16 @@ HỒ ĐỨC AN</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1568</width>
-     <height>22</height>
+     <width>1506</width>
+     <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuDASHBOARD">
+    <property name="title">
+     <string>DASHBOARD</string>
+    </property>
+   </widget>
+   <addaction name="menuDASHBOARD"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

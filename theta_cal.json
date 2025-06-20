@@ -1,0 +1,62 @@
+{
+    "1": {
+        "position": {
+            "x": 5.0,
+            "y": -210.5,
+            "z": 400.0,
+            "yaw": 179
+        },
+        "calibration": {
+            "calib_x": 55,
+            "calib_y": -30,
+            "calib_z": 0,
+            "offset_theta": 180
+        }
+    },
+    "2": {
+        "position": {
+            "x": 234.5,
+            "y": -160.0,
+            "z": 430.0,
+            "yaw": 180
+        },
+        "calibration": {
+            "calib_x": 50,
+            "calib_y": -30,
+            "calib_z": 0,
+            "offset_theta": 180
+        }
+    },
+    "3": {
+        "position": {
+            "x": 211.0,
+            "y": 176.5,
+            "z": 400.0,
+            "yaw": 179
+        },
+        "calibration": {
+            "calib_x": 50,
+            "calib_y": -26,
+            "calib_z": 0,
+            "offset_theta": 180
+        }
+    },
+    "home": {
+        "x": 190,
+        "y": 0,
+        "z": 400,
+        "roll": 180,
+        "pitch": 0,
+        "yaw": 0,
+        "speed": 800
+    },
+    "default": {
+        "x": 87,
+        "y": 0,
+        "z": 155,
+        "roll": 180,
+        "pitch": 0,
+        "yaw": 0,
+        "speed": 800
+    }
+}

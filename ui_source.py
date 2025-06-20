@@ -1,0 +1,577 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mhudlEaywb.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+import PySide2.QtWidgets as Widgets
+import sys
+
+
+
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'param_selectqwjyCd.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+class Ui_Dialog(object):
+    def setupUi(self, Dialog):
+        if not Dialog.objectName():
+            Dialog.setObjectName(u"Dialog")
+        Dialog.resize(611, 142)
+        font = QFont()
+        font.setPointSize(13)
+        self.textBrowser = QTextBrowser(Dialog)
+        self.textBrowser.setObjectName(u"textBrowser")
+        self.textBrowser.setGeometry(QRect(10, 20, 461, 41))
+        self.textBrowser.setFont(font)
+        self.toolButton = QToolButton(Dialog)
+        self.toolButton.setObjectName(u"toolButton")
+        self.toolButton.setGeometry(QRect(480, 20, 121, 41))
+        self.pushButton = QPushButton(Dialog)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(290, 70, 151, 51))
+        self.pushButton.setFont(font)
+        self.pushButton_2 = QPushButton(Dialog)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(450, 70, 151, 51))
+        self.pushButton_2.setFont(font)
+
+        self.retranslateUi(Dialog)
+
+        QMetaObject.connectSlotsByName(Dialog)
+    # setupUi
+
+    def retranslateUi(self, Dialog):
+        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
+        self.toolButton.setText(QCoreApplication.translate("Dialog", u"...", None))
+        self.pushButton.setText(QCoreApplication.translate("Dialog", u"Confirm", None))
+        self.pushButton_2.setText(QCoreApplication.translate("Dialog", u"Discard", None))
+    # retranslateUi
+    
+
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mhudkqYknD.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mhudZzuvMN.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mhudcLZirJ.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(1506, 859)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(10, 10, 671, 51))
+        font = QFont()
+        font.setFamily(u"Noto Mono")
+        font.setPointSize(20)
+        font.setBold(True)
+        font.setUnderline(True)
+        font.setWeight(75)
+        self.label.setFont(font)
+        self.label.setAlignment(Qt.AlignJustify|Qt.AlignTop)
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(10, 50, 561, 31))
+        font1 = QFont()
+        font1.setFamily(u"Noto Sans Mono")
+        font1.setPointSize(17)
+        font1.setUnderline(True)
+        font1.setStrikeOut(False)
+        self.label_2.setFont(font1)
+        self.label_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.label_3 = QLabel(self.centralwidget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(730, 10, 411, 61))
+        font2 = QFont()
+        font2.setFamily(u"Noto Mono")
+        font2.setPointSize(15)
+        font2.setBold(True)
+        font2.setWeight(75)
+        self.label_3.setFont(font2)
+        self.label_3.setAlignment(Qt.AlignJustify|Qt.AlignTop)
+        self.label_4 = QLabel(self.centralwidget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(730, 70, 191, 61))
+        font3 = QFont()
+        font3.setFamily(u"Noto Mono")
+        font3.setPointSize(13)
+        self.label_4.setFont(font3)
+        self.label_4.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.label_5 = QLabel(self.centralwidget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(920, 70, 221, 61))
+        self.label_5.setFont(font3)
+        self.label_5.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.graphicsView = QGraphicsView(self.centralwidget)
+        self.graphicsView.setObjectName(u"graphicsView")
+        self.graphicsView.setEnabled(False)
+        self.graphicsView.setGeometry(QRect(10, 140, 1561, 681))
+        brush = QBrush(QColor(0, 0, 0, 255))
+        brush.setStyle(Qt.Dense1Pattern)
+        self.graphicsView.setBackgroundBrush(brush)
+        brush1 = QBrush(QColor(0, 0, 0, 255))
+        brush1.setStyle(Qt.Dense1Pattern)
+        self.graphicsView.setForegroundBrush(brush1)
+        self.groupBox_3 = QGroupBox(self.centralwidget)
+        self.groupBox_3.setObjectName(u"groupBox_3")
+        self.groupBox_3.setGeometry(QRect(20, 670, 421, 141))
+        self.groupBox_3.setFont(font3)
+        self.xarm_Z = QPlainTextEdit(self.groupBox_3)
+        self.xarm_Z.setObjectName(u"xarm_Z")
+        self.xarm_Z.setGeometry(QRect(220, 40, 91, 31))
+        font4 = QFont()
+        font4.setFamily(u"Noto Mono")
+        font4.setPointSize(9)
+        self.xarm_Z.setFont(font4)
+        self.xarm_X = QPlainTextEdit(self.groupBox_3)
+        self.xarm_X.setObjectName(u"xarm_X")
+        self.xarm_X.setGeometry(QRect(10, 40, 101, 31))
+        self.xarm_X.setFont(font4)
+        self.xarm_Y = QPlainTextEdit(self.groupBox_3)
+        self.xarm_Y.setObjectName(u"xarm_Y")
+        self.xarm_Y.setGeometry(QRect(120, 40, 91, 31))
+        self.xarm_Y.setFont(font4)
+        self.xarmZeroPoint = QPushButton(self.groupBox_3)
+        self.xarmZeroPoint.setObjectName(u"xarmZeroPoint")
+        self.xarmZeroPoint.setGeometry(QRect(10, 90, 131, 41))
+        self.xarmHomePoint = QPushButton(self.groupBox_3)
+        self.xarmHomePoint.setObjectName(u"xarmHomePoint")
+        self.xarmHomePoint.setGeometry(QRect(150, 90, 121, 41))
+        self.xarm_theta = QPlainTextEdit(self.groupBox_3)
+        self.xarm_theta.setObjectName(u"xarm_theta")
+        self.xarm_theta.setGeometry(QRect(320, 40, 91, 31))
+        self.xarm_theta.setFont(font4)
+        self.xarmWorkspaceSwitching = QPushButton(self.groupBox_3)
+        self.xarmWorkspaceSwitching.setObjectName(u"xarmWorkspaceSwitching")
+        self.xarmWorkspaceSwitching.setGeometry(QRect(280, 90, 131, 41))
+        font5 = QFont()
+        font5.setFamily(u"Noto Mono")
+        font5.setPointSize(12)
+        self.xarmWorkspaceSwitching.setFont(font5)
+        self.cameraView = QLabel(self.centralwidget)
+        self.cameraView.setObjectName(u"cameraView")
+        self.cameraView.setGeometry(QRect(780, 150, 721, 461))
+        self.logView = QListView(self.centralwidget)
+        self.logView.setObjectName(u"logView")
+        self.logView.setGeometry(QRect(780, 630, 781, 181))
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(10, 80, 561, 31))
+        font6 = QFont()
+        font6.setFamily(u"Noto Sans Mono")
+        font6.setPointSize(13)
+        font6.setBold(False)
+        font6.setItalic(False)
+        font6.setWeight(50)
+        self.label_7.setFont(font6)
+        self.label_7.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(1120, 70, 341, 61))
+        font7 = QFont()
+        font7.setFamily(u"Noto Mono")
+        font7.setPointSize(13)
+        font7.setBold(True)
+        font7.setWeight(75)
+        self.label_8.setFont(font7)
+        self.label_8.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.groupBox_5 = QGroupBox(self.centralwidget)
+        self.groupBox_5.setObjectName(u"groupBox_5")
+        self.groupBox_5.setGeometry(QRect(460, 250, 311, 191))
+        font8 = QFont()
+        font8.setPointSize(13)
+        self.groupBox_5.setFont(font8)
+        self.pushButton = QPushButton(self.groupBox_5)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(10, 30, 291, 71))
+        font9 = QFont()
+        font9.setPointSize(20)
+        font9.setBold(True)
+        font9.setWeight(75)
+        self.pushButton.setFont(font9)
+        self.pushButton_2 = QPushButton(self.groupBox_5)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(10, 110, 291, 71))
+        self.pushButton_2.setFont(font9)
+        self.groupBox_6 = QGroupBox(self.centralwidget)
+        self.groupBox_6.setObjectName(u"groupBox_6")
+        self.groupBox_6.setGeometry(QRect(450, 530, 321, 281))
+        self.groupBox_6.setFont(font8)
+        self.label_9 = QLabel(self.groupBox_6)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(10, 30, 151, 31))
+        self.label_10 = QLabel(self.groupBox_6)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setGeometry(QRect(10, 70, 41, 21))
+        self.cpu_bar = QProgressBar(self.groupBox_6)
+        self.cpu_bar.setObjectName(u"cpu_bar")
+        self.cpu_bar.setGeometry(QRect(50, 70, 261, 21))
+        self.cpu_bar.setValue(0)
+        self.ram_bar = QProgressBar(self.groupBox_6)
+        self.ram_bar.setObjectName(u"ram_bar")
+        self.ram_bar.setGeometry(QRect(50, 110, 261, 21))
+        self.ram_bar.setValue(0)
+        self.label_11 = QLabel(self.groupBox_6)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setGeometry(QRect(10, 110, 41, 21))
+        self.RealTime = QTextEdit(self.groupBox_6)
+        self.RealTime.setObjectName(u"RealTime")
+        self.RealTime.setGeometry(QRect(10, 150, 301, 61))
+        self.Date = QTextEdit(self.groupBox_6)
+        self.Date.setObjectName(u"Date")
+        self.Date.setGeometry(QRect(10, 230, 301, 41))
+        self.threadcount = QTextEdit(self.groupBox_6)
+        self.threadcount.setObjectName(u"threadcount")
+        self.threadcount.setGeometry(QRect(160, 30, 151, 31))
+        self.toolBox = QToolBox(self.centralwidget)
+        self.toolBox.setObjectName(u"toolBox")
+        self.toolBox.setGeometry(QRect(20, 150, 431, 501))
+        self.toolBox.setFont(font8)
+        self.toolBox.setAutoFillBackground(False)
+        self.page = QWidget()
+        self.page.setObjectName(u"page")
+        self.page.setGeometry(QRect(0, 0, 431, 396))
+        self.groupBox = QGroupBox(self.page)
+        self.groupBox.setObjectName(u"groupBox")
+        self.groupBox.setGeometry(QRect(10, 10, 421, 111))
+        self.groupBox.setFont(font3)
+        self.webcamManager = QCheckBox(self.groupBox)
+        self.webcamManager.setObjectName(u"webcamManager")
+        self.webcamManager.setGeometry(QRect(10, 30, 141, 23))
+        self.webcamManager.setFont(font3)
+        self.webcamManager.setChecked(False)
+        self.webcamManager.setAutoExclusive(False)
+        self.xarmManager = QCheckBox(self.groupBox)
+        self.xarmManager.setObjectName(u"xarmManager")
+        self.xarmManager.setGeometry(QRect(10, 70, 131, 31))
+        self.xarmManager.setFont(font3)
+        self.xarmManager.setChecked(False)
+        self.xarmManager.setAutoExclusive(False)
+        self.stage1button = QPushButton(self.page)
+        self.stage1button.setObjectName(u"stage1button")
+        self.stage1button.setGeometry(QRect(10, 210, 421, 61))
+        self.stage1button.setFont(font3)
+        self.groupBox_10 = QGroupBox(self.page)
+        self.groupBox_10.setObjectName(u"groupBox_10")
+        self.groupBox_10.setGeometry(QRect(10, 120, 421, 81))
+        self.ip_addr = QTextEdit(self.groupBox_10)
+        self.ip_addr.setObjectName(u"ip_addr")
+        self.ip_addr.setGeometry(QRect(10, 30, 401, 41))
+        self.toolBox.addItem(self.page, u"C\u1ea4U H\u00ccNH TR\u1ea0NG TH\u00c1I PH\u1ea6N C\u1ee8NG")
+        self.page2 = QWidget()
+        self.page2.setObjectName(u"page2")
+        self.page2.setGeometry(QRect(0, 0, 431, 396))
+        self.groupBox_2 = QGroupBox(self.page2)
+        self.groupBox_2.setObjectName(u"groupBox_2")
+        self.groupBox_2.setGeometry(QRect(10, 10, 421, 391))
+        self.groupBox_2.setFont(font3)
+        self.pallet1_check = QCheckBox(self.groupBox_2)
+        self.pallet1_check.setObjectName(u"pallet1_check")
+        self.pallet1_check.setGeometry(QRect(10, 30, 201, 23))
+        self.pallet1_check.setFont(font3)
+        self.pallet1_check.setChecked(False)
+        self.pallet1_check.setAutoExclusive(False)
+        self.pallet2_check = QCheckBox(self.groupBox_2)
+        self.pallet2_check.setObjectName(u"pallet2_check")
+        self.pallet2_check.setGeometry(QRect(10, 110, 161, 23))
+        self.pallet2_check.setFont(font3)
+        self.pallet2_check.setChecked(False)
+        self.pallet2_check.setAutoExclusive(False)
+        self.pallet1_X = QPlainTextEdit(self.groupBox_2)
+        self.pallet1_X.setObjectName(u"pallet1_X")
+        self.pallet1_X.setGeometry(QRect(10, 60, 101, 31))
+        self.pallet1_X.setFont(font4)
+        self.pallet1_Y = QPlainTextEdit(self.groupBox_2)
+        self.pallet1_Y.setObjectName(u"pallet1_Y")
+        self.pallet1_Y.setGeometry(QRect(120, 60, 91, 31))
+        self.pallet1_Y.setFont(font4)
+        self.pallet1_Z = QPlainTextEdit(self.groupBox_2)
+        self.pallet1_Z.setObjectName(u"pallet1_Z")
+        self.pallet1_Z.setGeometry(QRect(220, 60, 91, 31))
+        self.pallet1_Z.setFont(font4)
+        self.pallet2_Z = QPlainTextEdit(self.groupBox_2)
+        self.pallet2_Z.setObjectName(u"pallet2_Z")
+        self.pallet2_Z.setGeometry(QRect(220, 140, 91, 31))
+        self.pallet2_Z.setFont(font4)
+        self.pallet2_Y = QPlainTextEdit(self.groupBox_2)
+        self.pallet2_Y.setObjectName(u"pallet2_Y")
+        self.pallet2_Y.setGeometry(QRect(120, 140, 91, 31))
+        self.pallet2_Y.setFont(font4)
+        self.pallet2_X = QPlainTextEdit(self.groupBox_2)
+        self.pallet2_X.setObjectName(u"pallet2_X")
+        self.pallet2_X.setGeometry(QRect(10, 140, 101, 31))
+        self.pallet2_X.setFont(font4)
+        self.pallet3_check = QCheckBox(self.groupBox_2)
+        self.pallet3_check.setObjectName(u"pallet3_check")
+        self.pallet3_check.setGeometry(QRect(10, 190, 181, 23))
+        self.pallet3_check.setFont(font3)
+        self.pallet3_check.setChecked(False)
+        self.pallet3_check.setAutoExclusive(False)
+        self.pallet3_X = QPlainTextEdit(self.groupBox_2)
+        self.pallet3_X.setObjectName(u"pallet3_X")
+        self.pallet3_X.setGeometry(QRect(10, 220, 101, 31))
+        self.pallet3_X.setFont(font4)
+        self.pallet3_Y = QPlainTextEdit(self.groupBox_2)
+        self.pallet3_Y.setObjectName(u"pallet3_Y")
+        self.pallet3_Y.setGeometry(QRect(120, 220, 91, 31))
+        self.pallet3_Y.setFont(font4)
+        self.pallet3_Z = QPlainTextEdit(self.groupBox_2)
+        self.pallet3_Z.setObjectName(u"pallet3_Z")
+        self.pallet3_Z.setGeometry(QRect(220, 220, 91, 31))
+        self.pallet3_Z.setFont(font4)
+        self.pallet4_X = QPlainTextEdit(self.groupBox_2)
+        self.pallet4_X.setObjectName(u"pallet4_X")
+        self.pallet4_X.setGeometry(QRect(10, 300, 101, 31))
+        self.pallet4_X.setFont(font4)
+        self.pallet4_Y = QPlainTextEdit(self.groupBox_2)
+        self.pallet4_Y.setObjectName(u"pallet4_Y")
+        self.pallet4_Y.setGeometry(QRect(120, 300, 91, 31))
+        self.pallet4_Y.setFont(font4)
+        self.pallet4_check = QCheckBox(self.groupBox_2)
+        self.pallet4_check.setObjectName(u"pallet4_check")
+        self.pallet4_check.setGeometry(QRect(10, 270, 171, 23))
+        self.pallet4_check.setFont(font3)
+        self.pallet4_check.setChecked(False)
+        self.pallet4_check.setAutoExclusive(False)
+        self.pallet4_Z = QPlainTextEdit(self.groupBox_2)
+        self.pallet4_Z.setObjectName(u"pallet4_Z")
+        self.pallet4_Z.setGeometry(QRect(220, 300, 91, 31))
+        self.pallet4_Z.setFont(font4)
+        self.stage2button = QPushButton(self.groupBox_2)
+        self.stage2button.setObjectName(u"stage2button")
+        self.stage2button.setGeometry(QRect(10, 340, 401, 41))
+        self.stage2button.setFont(font3)
+        self.pallet1_theta = QPlainTextEdit(self.groupBox_2)
+        self.pallet1_theta.setObjectName(u"pallet1_theta")
+        self.pallet1_theta.setGeometry(QRect(320, 60, 91, 31))
+        self.pallet1_theta.setFont(font4)
+        self.pallet2_theta = QPlainTextEdit(self.groupBox_2)
+        self.pallet2_theta.setObjectName(u"pallet2_theta")
+        self.pallet2_theta.setGeometry(QRect(320, 140, 91, 31))
+        self.pallet2_theta.setFont(font4)
+        self.pallet3_theta = QPlainTextEdit(self.groupBox_2)
+        self.pallet3_theta.setObjectName(u"pallet3_theta")
+        self.pallet3_theta.setGeometry(QRect(320, 220, 91, 31))
+        self.pallet3_theta.setFont(font4)
+        self.pallet4_theta = QPlainTextEdit(self.groupBox_2)
+        self.pallet4_theta.setObjectName(u"pallet4_theta")
+        self.pallet4_theta.setGeometry(QRect(320, 300, 91, 31))
+        self.pallet4_theta.setFont(font4)
+        self.toolBox.addItem(self.page2, u"C\u1ea4U H\u00ccNH T\u1eccA \u0110\u1ed8 PALLET")
+        self.page_3 = QWidget()
+        self.page_3.setObjectName(u"page_3")
+        self.page_3.setGeometry(QRect(0, 0, 431, 396))
+        self.groupBox_4 = QGroupBox(self.page_3)
+        self.groupBox_4.setObjectName(u"groupBox_4")
+        self.groupBox_4.setGeometry(QRect(0, 10, 431, 371))
+        self.groupBox_4.setFont(font8)
+        self.checkBox = QCheckBox(self.groupBox_4)
+        self.checkBox.setObjectName(u"checkBox")
+        self.checkBox.setGeometry(QRect(10, 30, 281, 41))
+        self.checkBox_2 = QCheckBox(self.groupBox_4)
+        self.checkBox_2.setObjectName(u"checkBox_2")
+        self.checkBox_2.setGeometry(QRect(10, 60, 281, 41))
+        self.checkBox_3 = QCheckBox(self.groupBox_4)
+        self.checkBox_3.setObjectName(u"checkBox_3")
+        self.checkBox_3.setGeometry(QRect(10, 90, 281, 41))
+        self.stage3button = QPushButton(self.groupBox_4)
+        self.stage3button.setObjectName(u"stage3button")
+        self.stage3button.setGeometry(QRect(10, 310, 411, 41))
+        self.stage3button.setFont(font3)
+        self.groupBox_9 = QGroupBox(self.groupBox_4)
+        self.groupBox_9.setObjectName(u"groupBox_9")
+        self.groupBox_9.setGeometry(QRect(10, 130, 411, 81))
+        self.maindirText = QPlainTextEdit(self.groupBox_9)
+        self.maindirText.setObjectName(u"maindirText")
+        self.maindirText.setGeometry(QRect(10, 30, 331, 41))
+        self.main_dirChoose = QToolButton(self.groupBox_9)
+        self.main_dirChoose.setObjectName(u"main_dirChoose")
+        self.main_dirChoose.setGeometry(QRect(350, 30, 51, 41))
+        self.toolBox.addItem(self.page_3, u"C\u1ea4U H\u00ccNH M\u00d4 H\u00ccNH KMEANS")
+        self.groupBox_7 = QGroupBox(self.centralwidget)
+        self.groupBox_7.setObjectName(u"groupBox_7")
+        self.groupBox_7.setGeometry(QRect(460, 150, 311, 91))
+        self.groupBox_7.setFont(font8)
+        self.textEdit_4 = QTextEdit(self.groupBox_7)
+        self.textEdit_4.setObjectName(u"textEdit_4")
+        self.textEdit_4.setGeometry(QRect(10, 30, 291, 51))
+        self.textEdit_4.setReadOnly(True)
+        self.groupBox_8 = QGroupBox(self.centralwidget)
+        self.groupBox_8.setObjectName(u"groupBox_8")
+        self.groupBox_8.setGeometry(QRect(460, 440, 311, 81))
+        self.groupBox_8.setFont(font8)
+        self.plainTextEdit = QPlainTextEdit(self.groupBox_8)
+        self.plainTextEdit.setObjectName(u"plainTextEdit")
+        self.plainTextEdit.setGeometry(QRect(10, 30, 181, 41))
+        self.toolButton = QToolButton(self.groupBox_8)
+        self.toolButton.setObjectName(u"toolButton")
+        self.toolButton.setGeometry(QRect(200, 30, 101, 41))
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 1506, 21))
+        self.menuDASHBOARD = QMenu(self.menubar)
+        self.menuDASHBOARD.setObjectName(u"menuDASHBOARD")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.menubar.addAction(self.menuDASHBOARD.menuAction())
+
+        self.retranslateUi(MainWindow)
+
+        self.toolBox.setCurrentIndex(2)
+
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"TR\u01af\u1edcNG \u0110\u1ea0I H\u1eccC C\u00d4NG NGH\u1ec6 TP.HCM HUTECH", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Vi\u1ec7n K\u1ef9 thu\u1eadt HUTECH", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u0110\u1ec1 5: H\u1ec7 th\u1ed1ng t\u1ef1 \u0111\u1ed9ng \u0111i\u1ec1u khi\u1ec3n\n"
+"c\u00e1nh tay robot g\u1eafp v\u00e0 ph\u00e2n lo\u1ea1i v\u00e2t th\u1ec3", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"NGUY\u1ec4N THANH NH\u00c2N   \n"
+"NGUY\u1ec4N V\u0168 HUY KH\u00d4I  \n"
+"H\u1ed2 \u0110\u1ee8C AN", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"2286301149     22DRTA1 \n"
+"2286300027     22DRTA1 \n"
+"2286300050     22DRTA1", None))
+        self.groupBox_3.setTitle(QCoreApplication.translate("MainWindow", u"Tay Xarm Lite6", None))
+        self.xarm_Z.setPlainText(QCoreApplication.translate("MainWindow", u"Z = 789.78", None))
+        self.xarm_X.setPlainText(QCoreApplication.translate("MainWindow", u"X = 123.12", None))
+        self.xarm_Y.setPlainText(QCoreApplication.translate("MainWindow", u"Y = 456.45", None))
+        self.xarmZeroPoint.setText(QCoreApplication.translate("MainWindow", u"Zero point", None))
+        self.xarmHomePoint.setText(QCoreApplication.translate("MainWindow", u"Home point", None))
+        self.xarm_theta.setPlainText(QCoreApplication.translate("MainWindow", u"\u03b8 = 789.78", None))
+        self.xarmWorkspaceSwitching.setText(QCoreApplication.translate("MainWindow", u"Sorting pallet", None))
+        self.cameraView.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Th\u00e0nh ph\u1ed1 H\u1ed3 Ch\u00ed Minh, 2025", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"GVHD: Th\u1ea7y Ph\u1ea1m Qu\u1ed1c Ph\u01b0\u01a1ng \n"
+"M\u00f4n: M\u00e1y h\u1ecdc \u1ee9ng d\u1ee5ng", None))
+        self.groupBox_5.setTitle(QCoreApplication.translate("MainWindow", u"V\u1eacN H\u00c0NH", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"START", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"STOP", None))
+        self.groupBox_6.setTitle(QCoreApplication.translate("MainWindow", u"GI\u00c1M S\u00c1T H\u1ec6 TH\u1ed0NG V\u00c0 RTC", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"S\u1ed1 lu\u1ed3ng \u0111ang ch\u1ea1y", None))
+        self.label_10.setText(QCoreApplication.translate("MainWindow", u"CPU", None))
+        self.label_11.setText(QCoreApplication.translate("MainWindow", u"RAM", None))
+        self.groupBox.setTitle(QCoreApplication.translate("MainWindow", u"1. C\u1ea4U H\u00ccNH V\u00c0 TR\u1ea0NG TH\u00c1I PH\u1ea6N C\u1ee8NG", None))
+        self.webcamManager.setText(QCoreApplication.translate("MainWindow", u"Intel D435i", None))
+        self.xarmManager.setText(QCoreApplication.translate("MainWindow", u"Xarm Lite6", None))
+        self.stage1button.setText(QCoreApplication.translate("MainWindow", u"KI\u1ec2M TRA", None))
+        self.groupBox_10.setTitle(QCoreApplication.translate("MainWindow", u"\u0110\u1ecba ch\u1ec9 IP tay robot ", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.page), QCoreApplication.translate("MainWindow", u"C\u1ea4U H\u00ccNH TR\u1ea0NG TH\u00c1I PH\u1ea6N C\u1ee8NG", None))
+        self.groupBox_2.setTitle(QCoreApplication.translate("MainWindow", u"2. C\u1ea4U H\u00ccNH T\u1eccA \u0110\u1ed8 PALLET", None))
+        self.pallet1_check.setText(QCoreApplication.translate("MainWindow", u"Pallet nh\u1eadp h\u00e0ng", None))
+        self.pallet2_check.setText(QCoreApplication.translate("MainWindow", u"Pallet h\u00e0ng 1", None))
+        self.pallet1_X.setPlainText(QCoreApplication.translate("MainWindow", u"X = 123.12", None))
+        self.pallet1_Y.setPlainText(QCoreApplication.translate("MainWindow", u"Y = 456.45", None))
+        self.pallet1_Z.setPlainText(QCoreApplication.translate("MainWindow", u"Z = 789.78", None))
+        self.pallet2_Z.setPlainText(QCoreApplication.translate("MainWindow", u"Z = 789.78", None))
+        self.pallet2_Y.setPlainText(QCoreApplication.translate("MainWindow", u"Y = 456.45", None))
+        self.pallet2_X.setPlainText(QCoreApplication.translate("MainWindow", u"X = 123.12", None))
+        self.pallet3_check.setText(QCoreApplication.translate("MainWindow", u"Pallet h\u00e0ng 2", None))
+        self.pallet3_X.setPlainText(QCoreApplication.translate("MainWindow", u"X = 123.12", None))
+        self.pallet3_Y.setPlainText(QCoreApplication.translate("MainWindow", u"Y = 456.45", None))
+        self.pallet3_Z.setPlainText(QCoreApplication.translate("MainWindow", u"Z = 789.78", None))
+        self.pallet4_X.setPlainText(QCoreApplication.translate("MainWindow", u"X = 123.12", None))
+        self.pallet4_Y.setPlainText(QCoreApplication.translate("MainWindow", u"Y = 456.45", None))
+        self.pallet4_check.setText(QCoreApplication.translate("MainWindow", u"Pallet h\u00e0ng 3", None))
+        self.pallet4_Z.setPlainText(QCoreApplication.translate("MainWindow", u"Z = 789.78", None))
+        self.stage2button.setText(QCoreApplication.translate("MainWindow", u"C\u1ea5u h\u00ecnh", None))
+        self.pallet1_theta.setPlainText(QCoreApplication.translate("MainWindow", u"\u03b8 = 789.78", None))
+        self.pallet2_theta.setPlainText(QCoreApplication.translate("MainWindow", u"\u03b8 = 789.78", None))
+        self.pallet3_theta.setPlainText(QCoreApplication.translate("MainWindow", u"\u03b8 = 789.78", None))
+        self.pallet4_theta.setPlainText(QCoreApplication.translate("MainWindow", u"\u03b8 = 789.78", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.page2), QCoreApplication.translate("MainWindow", u"C\u1ea4U H\u00ccNH T\u1eccA \u0110\u1ed8 PALLET", None))
+        self.groupBox_4.setTitle(QCoreApplication.translate("MainWindow", u"3. C\u1ea4U H\u00ccNH M\u00d4 H\u00ccNH K-MEANS", None))
+        self.checkBox.setText(QCoreApplication.translate("MainWindow", u"BOW - SIFT", None))
+        self.checkBox_2.setText(QCoreApplication.translate("MainWindow", u"PCA", None))
+        self.checkBox_3.setText(QCoreApplication.translate("MainWindow", u"K-MEANS", None))
+        self.stage3button.setText(QCoreApplication.translate("MainWindow", u"LOAD", None))
+        self.groupBox_9.setTitle(QCoreApplication.translate("MainWindow", u"Th\u01b0 m\u1ee5c ch\u00ednh", None))
+        self.main_dirChoose.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.page_3), QCoreApplication.translate("MainWindow", u"C\u1ea4U H\u00ccNH M\u00d4 H\u00ccNH KMEANS", None))
+        self.groupBox_7.setTitle(QCoreApplication.translate("MainWindow", u"TR\u1ea0NG TH\u00c1I", None))
+        self.textEdit_4.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:13pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20pt; color:#aa0000;\">CH\u01afA S\u1eb4N S\u00c0NG</span></p></body></html>", None))
+        self.groupBox_8.setTitle(QCoreApplication.translate("MainWindow", u"\u0110\u00c3 PH\u00c2N LO\u1ea0I", None))
+        self.toolButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.menuDASHBOARD.setTitle(QCoreApplication.translate("MainWindow", u"DASHBOARD", None))
+    # retranslateUi
+
+
+if __name__ == "__main__":
+    app = Widgets.QApplication(sys.argv)
+    MainWindow = Widgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
